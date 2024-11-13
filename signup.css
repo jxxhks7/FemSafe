@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fefaf4; /* New background color */
+    color: #333;
+    height: 100vh;
+    justify-content: center;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DCE4C9; /* Updated background color */
+    padding: 1rem 2rem;
+    color: black;
+}
+
+.logo {
+    font-size: 2.5rem; /* Increased font size for FemSafe */
+    font-weight: bold;
+    color: #333; /* Color for the logo */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Centered Form Styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the container's height */
+}
+
+.form-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-box h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #DCE4C9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-box button:hover {
+    background-color: #B8D1A0;
+}
+
+.signup-link {
+    margin-top: 1rem;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}

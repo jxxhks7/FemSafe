@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women's Health - Symptom Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>FemSafe</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" onclick="showSection('home')">Home</a></li>
+        <li><a href="health.html" onclick="showSection('health')">Health</a></li>
+        <li><a href="#awareness" onclick="showSection('awareness')">Awareness</a></li>
+        <li><a href="#nutrition" onclick="showSection('nutrition')">Nutrition Chart</a></li>
+        <li><a href="safety.html" onclick="showSection('safety')">Safety</a></li>
+        <li><a href="#login" onclick="showSection('login')">Login / Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Symptom Checker</h2>
+    <p>Enter your symptoms below to get a prediction:</p>
+
+    <label for="symptom-input">Describe your symptoms:</label>
+    <textarea id="symptom-input" placeholder="e.g., fever, headache, cough"></textarea>
+    <button onclick="checkSymptoms()">Check Symptoms</button>
+
+    <div id="result" class="result"></div>
+    <div id="doctor-recommendation" class="doctor-recommendation"></div>
+
+    <div id="appointment-booking" class="appointment-booking"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 FemSafe. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

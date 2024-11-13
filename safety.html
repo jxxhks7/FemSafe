@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FemSafe - Women's Safety</title>
+  <link rel="stylesheet" href="safety.css">
+  
+    <!-- Include Google Maps API Script -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&callback=initMap"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">FemSafe</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" onclick="showSection('home')">Home</a></li>
+        <li><a href="health.html" onclick="showSection('health')">Health</a></li>
+        <li><a href="awareness" onclick="showSection('awareness')">Awareness</a></li>
+        <li><a href="#nutrition" onclick="showSection('nutrition')">Nutrition Chart</a></li>
+        <li><a href="safety.html" onclick="showSection('safety')">Safety</a></li>
+        <li><a href="#login" onclick="showSection('login')">Login / Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Emergency SOS Button) -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1>Stay Safe, Always</h1>
+      <p>If you feel unsafe, use the SOS button below to send an alert to your emergency contacts and nearby police stations.</p>
+      <button id="sos-button" class="sos-btn">Emergency SOS</button>
+    </div>
+  </section>
+
+  <!-- Emergency Contacts Section -->
+  <section id="contact" class="contact-section">
+    <h2>Emergency Contacts</h2>
+    <ul>
+      <li><strong>Local Police Station:</strong> 112 (Emergency Number)</li>
+      <li><strong>Your Emergency Contact:</strong> +91 9876543210</li>
+      <li><strong>Alternate Contact:</strong> +91 1234567890</li>
+    </ul>
+  </section>
+
+  <!-- Secure Places Section -->
+  <section id="secure-places" class="secure-places-section">
+    <h2>Find Secure Places Nearby</h2>
+    <p>In case of an emergency, you can find nearby secure places such as police stations, hospitals, and women’s shelters.</p>
+    <button id="find-secure-places" class="secure-places-btn">Find Secure Places</button>
+    <div id="map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 FemSafe - Women's Safety & Empowerment</p>
+  </footer>
+
+  <script src="safety.js"></script>
+  
+</body>
+</html>
+
