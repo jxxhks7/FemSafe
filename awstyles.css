@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #fefaf4; /* New background color */
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DCE4C9; /* Updated background color */
+    padding: 1rem 2rem;
+    color: black;
+  }
+  
+  .logo {
+    font-size: 2.5rem; /* Increased font size for FemSafe */
+    font-weight: bold;
+    color: #333; /* Color for the logo */
+  }
+  
+  nav.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: #FFF6E3;
+  }
+  
+  nav h1 {
+    font-size: 1.5em;
+    color: #705C53;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.5em;
+    list-style-type: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #705C53;
+    font-weight: 600;
+  }
+  
+  /* Hero Section */
+  #awareness-hero {
+    padding: 2em;
+    text-align: center;
+    background-color: #FFF6E3;
+    color: #705C53;
+  }
+  
+  #awareness-hero h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Awareness Sections */
+  .section.awareness {
+    padding: 2em 0;
+  }
+  
+  .section.awareness .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em 2em;
+  }
+  
+  .section.awareness img {
+    width: 40%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .section.awareness .text {
+    width: 50%;
+    padding: 1em;
+  }
+  
+  .section.awareness h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+  }
+  
+  .section.awareness p {
+    font-size: 1em;
+    color: #705C53;
+    margin-bottom: 1em;
+  }
+  
+  .section.awareness button {
+    padding: 0.5em 1em;
+    background-color: #EDDFE0;
+    color: #705C53;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section.awareness button:hover {
+    background-color: #CDC1FF;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1em;
+    background-color: black;
+    color: white;
+  }
