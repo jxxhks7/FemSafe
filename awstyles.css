@@ -7,7 +7,7 @@
   
   body {
     background-color: #fefaf4; /* New background color */
-    color: #333;
+    color: #54473F;
   }
   
   /* Header Styling */
@@ -17,7 +17,7 @@
     align-items: center;
     background-color: #DCE4C9; /* Updated background color */
     padding: 1rem 2rem;
-    color: black;
+    color: #54473F;
   }
   
   .logo {
@@ -26,37 +26,33 @@
     color: #333; /* Color for the logo */
   }
   
-  nav.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 2em;
-    background-color: #FFF6E3;
-  }
-  
-  nav h1 {
-    font-size: 1.5em;
-    color: #705C53;
-  }
-  
   nav ul {
     display: flex;
-    gap: 1.5em;
-    list-style-type: none;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
   }
   
   nav ul li a {
+    color: #333; /* Updated font color */
     text-decoration: none;
-    color: #705C53;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjusted font size for navigation links */
   }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
   
   /* Hero Section */
   #awareness-hero {
     padding: 2em;
     text-align: center;
-    background-color: #FFF6E3;
-    color: #705C53;
+    background-color: #F5F5DC;
+    color: #54473F;
   }
   
   #awareness-hero h2 {
@@ -117,6 +113,6 @@
   footer {
     text-align: center;
     padding: 1em;
-    background-color: black;
+    background-color: #54473F;
     color: white;
   }
